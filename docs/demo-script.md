@@ -14,7 +14,7 @@ cd d:\xampp\htdocs\whatsapp-project
 composer install
 cp .env.example .env
 php artisan key:generate
-php artisan migrate
+php artisan migrate --seed
 php artisan serve
 php artisan queue:work
 
