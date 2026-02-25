@@ -1,3 +1,14 @@
+
+## Setup & Running the Project
+
+To set up and run the project locally, follow these steps:
+
+git clone https://github.com/azmy-developer/whatsapp-node-service.git
+cd d:\xampp\htdocs\whatsapp-node-service
+npm install
+node index.js
+
+
 # WhatsApp Web Node Service (Design)
 
 This service runs `whatsapp-web.js` and exposes a minimal HTTP API for Laravel.

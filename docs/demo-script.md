@@ -4,6 +4,22 @@
 
 ## Happy path demo
 
+
+## Setup & Running the Project
+
+To set up and run the project locally, follow these steps:
+
+git clone https://github.com/azmy-developer/whatsapp-project.git
+cd d:\xampp\htdocs\whatsapp-project
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
+php artisan queue:work
+
+
+
 1. **Login to Filament panel**
    - URL: `/admin`
    - Login with an Admin user.
